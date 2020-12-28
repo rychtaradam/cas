@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rosta/Desktop/cas/Cas.h
+iostream
+-
+string
+-
+vector
+-
+chrono
+-
+
+C:/Users/rosta/Desktop/cas/main.cpp
+iostream
+-
+Cas.h
+C:/Users/rosta/Desktop/cas/Cas.h
+
